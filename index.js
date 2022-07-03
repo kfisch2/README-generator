@@ -6,20 +6,21 @@ const questions = [
   {
     type: 'input', 
     name: 'name',
-    message: 'What is the name of your project?'
+    message: 'What is the name of your project?:'
   },
   {
     type: 'input', 
     name: 'Purpose',
-    message: 'Why did you create this project?'
+    message: 'Why did you create this project?:'
   },
   {
     type: 'input', 
     name: 'Description',
-    message: 'Describe your project'
+    message: 'Describe your project:'
   }
 ];
 
+inquirer.prompt(questions).then(answers => console.log(answers))
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
 

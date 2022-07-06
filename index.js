@@ -13,13 +13,13 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'usage',
-    message: 'Why did you create this project?'
+    name: 'description',
+    message: 'Describe your project:'
   },
   {
     type: 'input',
-    name: 'description',
-    message: 'Describe your project:'
+    name: 'usage',
+    message: 'Usage information:'
   },
   {
     type: 'input',

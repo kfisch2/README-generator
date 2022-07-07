@@ -2,16 +2,18 @@
   # README Generator
 
   ## Description
-  A user is prompted with questions about a project and is provided with a professional README file
+  A user is prompted with questions about a project. Once they submit their answers, they are provided with a professional README file for that project.
 
 
   ## Table of Contents
 
-  - [Usage](#Usage)
-  - [Contribution](#Contributing)
   - [Installation](#Installation)
-  - [Contact](#Contact)
+  - [Usage](#Usage)
   - [License](#License)
+  - [Contribution](#Contributing)
+  - [Tests](#Tests)
+  - [Questions](#Questions)
+  
 
   ## Installation
   

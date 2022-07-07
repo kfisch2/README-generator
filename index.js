@@ -42,12 +42,12 @@ const questions = [
     message: 'What is your github?'
   },
   {
-    type: 'checkbox',
+    type: 'list',
     name: 'license',
     message: 'Would you like to include a license?',
-    choices: ['MIT', 'ISC', 'GNUPLvT'],
-    filter(val) {
-      return val;
+    choices: ['MIT', 'Mozilla', 'BSD', 'ISC'],
+    filter(license) {
+      return license;
     }
   },
 ];

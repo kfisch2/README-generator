@@ -2,29 +2,33 @@
   # README Generator
 
   ## Description
-  It generates readmes
+  A user is prompted with questions about a project and is provided with a professional README file
 
 
   ## Table of Contents
 
-  - [Purpose](#Purpose)
-  - [Contribution](#Contributions)
+  - [Usage](#Usage)
+  - [Contribution](#Contributing)
   - [Installation](#Installation)
   - [Contact](#Contact)
   - [License](#License)
 
-  ## Purpose
-  undefined
-
-  ## Contributors
-  I did
-
   ## Installation
-  install it
+  
 
-  ## Contact Me
-  no
-  no
+  ## Usage
+  
 
   ## License
   MIT
+
+  ## Contributing
+  Kayla Fischer
+
+  ## Tests
+  undefined
+
+  ## Questions
+  kmlindsey24@gmail.com
+  kfisch2@github.com
+

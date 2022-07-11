@@ -44,9 +44,11 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license) {
-    return `
-    ## License
-    For information about licensing, visit ${renderLicenseLink(license)}`
+  return `
+  For information about licensing, visit ${renderLicenseLink(license)}`
+  } else {
+  return `
+  No license information`
   }
 }
 
@@ -79,6 +81,7 @@ function generateMarkdown(answers) {
   ## Usage
   ${answers.usage}
 
+  ## License
   ${renderLicenseSection(answers.license)}
 
   ## Contributing
@@ -89,6 +92,7 @@ function generateMarkdown(answers) {
 
   ## Questions
   If you have more questions, email me: <${answers.email}>
+  <br>
   Check out my [Github profile](https://github.com/${answers.github})
 
 `};

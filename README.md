@@ -1,8 +1,9 @@
+# README Generator
 
-  # README Generator
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  A user is prompted with questions about a project. Once they submit their answers, they are provided with a professional README file for that project.
+  This command line interface will provide a user with a README.md file based on their inputs.
 
 
   ## Table of Contents
@@ -16,21 +17,22 @@
   
 
   ## Installation
-  
+  Clone this repository, install Node.js, and run the command "node index" in your terminal. See video for a walkthrough.
 
   ## Usage
-  
+  Quick and easy way to generate a README.md file with necessary information.
 
-  ## License
-  MIT
+  
+    ## License
+    For information about licensing, visit https://opensource.org/licenses/MIT
 
   ## Contributing
   Kayla Fischer
 
   ## Tests
-  
+  undefined
 
   ## Questions
-  kmlindsey24@gmail.com
-  kfisch2@github.com
+  If you have more questions, email me: <kmlindsey24@gmail.com>
+  Check out my [Github profile](https://github.com/kfisch2)
 

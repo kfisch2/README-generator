@@ -91,8 +91,8 @@ function generateMarkdown(answers) {
   ${answers.tests}
 
   ## Questions
-  If you have more questions, email me: <${answers.email}>
-  <br>
+  If you have questions, email me: <${answers.email}>
+  
   Check out my [Github profile](https://github.com/${answers.github})
 
 `};

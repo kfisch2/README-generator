@@ -9,12 +9,28 @@ const questions = [
   {
     type: 'input',
     name: 'title',
-    message: 'What is the name of your project?'
+    message: 'What is the name of your project?',
+    validate: name => {
+      if (name) {
+        return true;
+      } else {
+        console.log("Your project must have a name.");
+        return false;
+      }
+    }
   },
   {
     type: 'input',
     name: 'description',
-    message: 'Describe your project:'
+    message: 'Describe your project:',
+    validate: description => {
+      if (description) {
+        return true;
+      } else {
+        console.log("You must provide a description");
+        return false;
+      }
+    }
   },
   {
     type: 'input',
@@ -24,7 +40,15 @@ const questions = [
   {
     type: 'input',
     name: 'installation',
-    message: 'What are the installation instructions?'
+    message: 'What are the installation instructions?',
+    validate: installInfo => {
+      if (installInfo) {
+        return true;
+      } else {
+        console.log("Please provide instructions for installation");
+        return false;
+      }
+    }
   },
   {
     type: 'input',
@@ -34,7 +58,15 @@ const questions = [
   {
     type: 'input',
     name: 'contributors',
-    message: 'Who contributed to this project?'
+    message: 'Who contributed to this project?',
+    validate: contributor => {
+      if (contributor) {
+        return true;
+      } else {
+        console.log("There must be at least one contributor");
+        return false;
+      }
+    }
   },
   {
     type: 'name',
@@ -47,7 +79,7 @@ const questions = [
     message: 'What is your github?'
   },
   {
-    type: 'list',
+    type: 'checkbox',
     name: 'license',
     message: 'Would you like to include a license?',
     choices: ['MIT', 'Mozilla', 'BSD', 'ISC'],

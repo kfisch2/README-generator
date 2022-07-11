@@ -17,7 +17,7 @@
   
 
   ## Installation
-  Clone this repository, install Node.js, and run the command "node index" in your terminal. See video for further instruction.
+  Clone this repository, install Node.js, and run the command "node index" in your terminal. Watch this video for further instruction.
 
   ## Usage
   Quick and easy way to generate a README.md file that includes important and necessary information.

@@ -95,6 +95,8 @@ function generateMarkdown(answers) {
   
   Check out my [Github profile](https://github.com/${answers.github})
 
-`};
+   :dizzy: Happy coding! :dizzy:
+
+`;};
 
 module.exports = generateMarkdown;
